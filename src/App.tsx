@@ -13,13 +13,13 @@ export function App() {
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen bg-gray-900 text-gray-100">
       <header className="flex flex-col items-center">
-        <Logo />
+        <Logo className="animate-spin-slow" />
 
-        <Heading className="mt-4" size="lg">
+        <Heading className="mt-6" size="lg">
           Ignite Lab
         </Heading>
 
-        <Text className="text-gray-400 mt-1" size="lg">
+        <Text className="text-gray-400" size="lg">
           Faça login e comece a usar!
         </Text>
       </header>
